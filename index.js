@@ -36,10 +36,10 @@ function currentLine(line){
     for (let i = 0; i < line.length; i++){
       var counter = i + 1
       if (i == line.length - 1) {
-        string = counter + ". " + line[i]
+        string += counter + ". " + line[i]
       }
       else {
-        string = counter + ". " + line[i] + ", "
+        string += counter + ". " + line[i] + ", "
       }
     }
     return "The line is currently: " + string
