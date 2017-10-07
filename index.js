@@ -18,23 +18,13 @@ function nowServing(katzDeliLine){
 
   if (katzDeliLine.length == 0) {
     return "There is nobody waiting to be served!"
-    katzDeliLine = katzDeliLine.slice(1)
-    katzDeli = katzDeli.slice(1)
-    return katzDeliLine
-    return katzDeli
-  }
+    }
   else {
     return "Currently serving " + katzDeliLine[0] + "."
-    //delete katzDeliLine.[0] //.shift()
-    //element = katzDeliLine.shift()
-    //katzDeliLine = katzDeliLine.slice(1)
-    //katzDeli = katzDeli.slice(1)
-    katzDeliLine = katzDeliLine.shift()
-    katzDeli = katzDeli.shift()
-    katzDeliLine = katzDeliLine.shift()
-    katzDeli = katzDeli.shift()
-    return katzDeliLine
-    return katzDeli
+    katzDeliLine.shift()
+    katzDeli.shift()
   }
-
+  return katzDeliLine
+  return katzDeli
+  
 }
