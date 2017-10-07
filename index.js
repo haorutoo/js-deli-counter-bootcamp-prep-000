@@ -6,5 +6,7 @@ function takeANumber(katzDeliLine,name){
 
   katzDeliLine.push(name)
   katzDeli.push(name)
-  
+
+  return katzDeliLine
+  return katzDeli
 }
