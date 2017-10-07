@@ -21,11 +21,12 @@ function nowServing(katzDeliLine){
     var string "Currently serving " + katzDeliLine[0] + "."
     katzDeliLine.shift()
     katzDeli.shift()
+    return string  + katzDeliLine
+    return katzDeli
+
   }
 
 
-  return string  + katzDeliLine
-  return katzDeli
 
 }
 
