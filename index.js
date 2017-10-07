@@ -33,7 +33,7 @@ function currentLine(line){
   }
   else {
     var string = "" //= "The line is currently: "
-    for (i = 0, i < line.length, i++){
+    for (let i = 0, i < line.length, i++){
       var counter = i + 1
       if (i == line.length - 1) {
         string = counter + ". " + line[i]
