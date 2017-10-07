@@ -29,6 +29,8 @@ function nowServing(katzDeliLine){
     //katzDeli = katzDeli.slice(1)
     katzDeliLine = katzDeliLine.shift()
     katzDeli = katzDeli.shift()
+    katzDeliLine = katzDeliLine.slice(1)
+    katzDeli = katzDeli.slice(1)
     return katzDeliLine
     return katzDeli
   }
