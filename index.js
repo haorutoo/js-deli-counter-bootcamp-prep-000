@@ -5,5 +5,5 @@ function takeANumber(katzDeliLine,name){
   return "Welcome, " + name + ". You are number " + counter + " in line."
 
   katzDeli.push(name)
-  
+
 }
