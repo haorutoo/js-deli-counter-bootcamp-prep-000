@@ -24,8 +24,9 @@ function nowServing(katzDeliLine){
   else {
     return "Currently serving " + katzDeliLine[0] + "."
     //delete katzDeliLine.[0] //.shift()
-    element = katzDeliLine.shift()
-    delete katzDeliLine.element
+    //element = katzDeliLine.shift()
+    katzDeliLine = katzDeliLine.slice(1)
+    
     return katzDeliLine
   }
 
