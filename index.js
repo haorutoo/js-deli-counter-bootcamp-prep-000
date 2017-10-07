@@ -26,7 +26,9 @@ function nowServing(katzDeliLine){
     //delete katzDeliLine.[0] //.shift()
     //element = katzDeliLine.shift()
     katzDeliLine = katzDeliLine.slice(1)
+    katzDeli = katzDeli.slice(1)
     return katzDeliLine
+    return katzDeli
   }
 
 }
