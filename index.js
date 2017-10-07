@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
   }
 
 
-  return string + " <br> " + katzDeliLine
+  return string  + katzDeliLine
   return katzDeli
 
 }
