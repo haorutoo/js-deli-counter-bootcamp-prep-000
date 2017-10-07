@@ -26,7 +26,6 @@ function nowServing(katzDeliLine){
     //delete katzDeliLine.[0] //.shift()
     //element = katzDeliLine.shift()
     katzDeliLine = katzDeliLine.slice(1)
-    
     return katzDeliLine
   }
 
