@@ -14,8 +14,6 @@ function takeANumber(katzDeliLine,name){
 
 function nowServing(katzDeliLine){
 
-  var element
-
   if (katzDeliLine.length == 0) {
     return "There is nobody waiting to be served!"
     }
@@ -26,5 +24,5 @@ function nowServing(katzDeliLine){
   }
   return katzDeliLine
   return katzDeli
-  
+
 }
